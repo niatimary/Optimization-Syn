@@ -1,0 +1,25 @@
+{
+  "method": "KernelCPD",
+  "cost": "linear",
+  "pen": 8.34753880040116,
+  "n_bkps": null,
+  "min_size": 20,
+  "jump": 1,
+  "trial_number": 59,
+  "objective": "warming",
+  "train_f1_all": 0.5884728126548552,
+  "train_f1_warming": 0.5691074793983074,
+  "train_f1_cooling": 0.5989474507874382,
+  "train_mean_elapsed_s": 0.013420511623068402,
+  "run_metadata": {
+    "wall_time_s": 84279.10990793305,
+    "n_trials_this_run": 118,
+    "n_trials_total": 118,
+    "n_failed_total": 8,
+    "patience": 80,
+    "min_trials": 100,
+    "min_delta": 0.01,
+    "stopped_early": false,
+    "stopped_at_trial": null
+  }
+}

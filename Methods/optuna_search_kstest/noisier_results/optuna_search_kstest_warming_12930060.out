@@ -1,0 +1,36 @@
+========================================
+Job ID: 12930060
+Node: a04-08
+Start time: Mon Oct 12 13:06:43 PDT 2026
+========================================
+ammonyte 0.0.8 loaded
+train seeds: 60   validation seeds: 30   dt=0.0200
+max_call_seconds=7200s (hard per-series _detect timeout)
+budget: n_trials cap=250 (total across all resumed invocations)   n_jobs=24
+study 'search_kstest_warming' @ 'sqlite:///results_ks/study.db': 0 trial(s) already recorded before this run
+--n-trials cap is 250 total -- running up to 250 more trial(s) this invocation
+early stopping: will halt the study once 100+ trials have completed and 50 of them pass with no improvement > 0.01
+No improvement greater than 0.01 during the last 50 completed trials -- stopping study early.
+
+Saved 131 trials -> results_ks/optuna_trials.csv
+Study wall time: 10444s   trials this run: 131   trials total: 131   failed total: 0
+Study was stopped early by the patience callback at trial #130 (50 trials since the last improvement).
+Saved convergence data (131 completed trials) -> results_ks/optuna_convergence.csv
+Saved convergence plot -> results_ks/optuna_convergence.png
+
+Best trial #103 (optimized on f1_warming): train mean_f1_all=0.449  mean_f1_warming=0.430  mean_f1_cooling=0.451
+  params: {'n_c': 10, 'w_min': 0.3574867264895455, 'w_max': 3.7762093217411987, 'n_w': 9, 'd_c': 0.5004824674960585, 's_c': 0.8821196863629652}
+  mean call time (train): 21.899s
+Saved winning config -> results_ks/best_params.json
+Saved per-seed TRAIN breakdown -> results_ks/best_train_raw.csv
+
+VALIDATION (safe to check every run -- use this to compare search-procedure choices):
+  w_min=0.357  w_max=3.78  n_w=9  d_c=0.5  n_c=10  s_c=0.882
+  val_f1_warming=0.377  val_precision_warming=0.364  val_recall_warming=0.512
+  val_f1_all=0.402  val_f1_cooling=0.408  mean_call_s=21.825
+Saved -> results_ks/best_validation_raw.csv
+
+test.npz was never opened this run. evaluate_final_test() in this file is ready to score it once validation results are locked in and evaluate_test.py is wired up for KS test (not yet done -- deliberate follow-up).
+========================================
+Job completed: Mon Oct 12 16:02:52 PDT 2026
+========================================

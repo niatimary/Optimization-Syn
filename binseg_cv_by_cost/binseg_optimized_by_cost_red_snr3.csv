@@ -1,0 +1,2 @@
+algo,cost,pen_range,min_size_range,best_pen,best_min_size,on_edge,cv_test_precision_mean,cv_test_precision_std,cv_test_recall_mean,cv_test_recall_std,cv_test_f1_mean,cv_test_f1_std,cv_test_accuracy_mean,cv_test_accuracy_std,final_precision,final_recall,final_f1,final_accuracy,elapsed_seconds
+Binseg,l1,1-200,5-30,2.62,30,False,0.6240971189035237,0.012618832274258985,0.8245697245466456,0.024963416707057977,0.7081747199560674,0.018158683598968092,0.5500269810863102,0.02170489105405004,0.6240971189035238,0.8245697245466456,0.7081747199560675,0.5500269810863101,462.8819841251243

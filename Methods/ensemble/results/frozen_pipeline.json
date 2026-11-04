@@ -1,0 +1,383 @@
+{
+ "detectors": [
+  "LERM",
+  "ruptures"
+ ],
+ "configs": {
+  "KernelCPD|linear|t73": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 22.05753149026701,
+   "min_size": 40
+  },
+  "Pelt|l2|t3": {
+   "kind": "ruptures",
+   "method": "Pelt",
+   "cost": "l2",
+   "pen": 18.101172406309548,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t111": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 17.914172897671136,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t78": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 16.38149845044168,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t100": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 11.466950122905008,
+   "min_size": 40
+  },
+  "Pelt|l2|t15": {
+   "kind": "ruptures",
+   "method": "Pelt",
+   "cost": "l2",
+   "pen": 9.614723642843966,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t110": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 9.290271317431506,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t98": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 9.24404144669021,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t54": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 9.852570139012352,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t109": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 8.398921086893282,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t115": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 8.233273000586362,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t58": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 8.524858901447802,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t59": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 8.34753880040116,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t62": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 7.775445917434802,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t85": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 6.071360443646298,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t61": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 7.210735527780125,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t65": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 7.00616146261716,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t66": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 6.773840422747876,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t60": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 6.661866388174205,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t88": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 5.288507945722809,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t106": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 5.113239861722502,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t76": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 4.929033982542883,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t99": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 4.810207982282786,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t67": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 5.970547182569927,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t87": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 3.998252282453831,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t80": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 3.752870921078929,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t101": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 3.5993498300944506,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t35": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 4.596065145218388,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t26": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 4.291733724505734,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t74": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 1.7575253325087066,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t34": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 3.0089454019087154,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t39": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 2.488882398472352,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t89": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 0.11902268932079647,
+   "min_size": 40
+  },
+  "KernelCPD|linear|t69": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 1.8047175776222684,
+   "min_size": 20
+  },
+  "KernelCPD|rbf|t36": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "rbf",
+   "pen": 1.2663329465060686,
+   "min_size": 20
+  },
+  "Pelt|l2|t40": {
+   "kind": "ruptures",
+   "method": "Pelt",
+   "cost": "l2",
+   "pen": 0.9387633976889261,
+   "min_size": 20
+  },
+  "Pelt|mahalanobis|t38": {
+   "kind": "ruptures",
+   "method": "Pelt",
+   "cost": "mahalanobis",
+   "pen": 1.7230919670497895,
+   "min_size": 5
+  },
+  "Binseg|l1|t24": {
+   "kind": "ruptures",
+   "method": "Binseg",
+   "cost": "l1",
+   "pen": 0.12081734071245441,
+   "min_size": 20
+  },
+  "Pelt|l2|t48": {
+   "kind": "ruptures",
+   "method": "Pelt",
+   "cost": "l2",
+   "pen": 0.05528589935159395,
+   "min_size": 20
+  },
+  "KernelCPD|linear|t1": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 0.8097322530252726,
+   "min_size": 5
+  },
+  "Binseg|l2|t53": {
+   "kind": "ruptures",
+   "method": "Binseg",
+   "cost": "l2",
+   "pen": 0.3144952295014641,
+   "min_size": 5
+  },
+  "KernelCPD|linear|t37": {
+   "kind": "ruptures",
+   "method": "KernelCPD",
+   "cost": "linear",
+   "pen": 0.05557075032681154,
+   "min_size": 5
+  },
+  "LERM|t131": {
+   "kind": "lerm",
+   "m": 5,
+   "tau": 5,
+   "target_density": 0.0114327262364086,
+   "w_size": 16,
+   "w_incre": 2,
+   "k": 0.35
+  }
+ },
+ "group_of": {
+  "KernelCPD|linear|t73": "ruptures",
+  "Pelt|l2|t3": "ruptures",
+  "KernelCPD|linear|t111": "ruptures",
+  "KernelCPD|linear|t78": "ruptures",
+  "KernelCPD|linear|t100": "ruptures",
+  "Pelt|l2|t15": "ruptures",
+  "KernelCPD|linear|t110": "ruptures",
+  "KernelCPD|linear|t98": "ruptures",
+  "KernelCPD|linear|t54": "ruptures",
+  "KernelCPD|linear|t109": "ruptures",
+  "KernelCPD|linear|t115": "ruptures",
+  "KernelCPD|linear|t58": "ruptures",
+  "KernelCPD|linear|t59": "ruptures",
+  "KernelCPD|linear|t62": "ruptures",
+  "KernelCPD|linear|t85": "ruptures",
+  "KernelCPD|linear|t61": "ruptures",
+  "KernelCPD|linear|t65": "ruptures",
+  "KernelCPD|linear|t66": "ruptures",
+  "KernelCPD|linear|t60": "ruptures",
+  "KernelCPD|linear|t88": "ruptures",
+  "KernelCPD|linear|t106": "ruptures",
+  "KernelCPD|linear|t76": "ruptures",
+  "KernelCPD|linear|t99": "ruptures",
+  "KernelCPD|linear|t67": "ruptures",
+  "KernelCPD|linear|t87": "ruptures",
+  "KernelCPD|linear|t80": "ruptures",
+  "KernelCPD|linear|t101": "ruptures",
+  "KernelCPD|linear|t35": "ruptures",
+  "KernelCPD|linear|t26": "ruptures",
+  "KernelCPD|linear|t74": "ruptures",
+  "KernelCPD|linear|t34": "ruptures",
+  "KernelCPD|linear|t39": "ruptures",
+  "KernelCPD|linear|t89": "ruptures",
+  "KernelCPD|linear|t69": "ruptures",
+  "KernelCPD|rbf|t36": "ruptures",
+  "Pelt|l2|t40": "ruptures",
+  "Pelt|mahalanobis|t38": "ruptures",
+  "Binseg|l1|t24": "ruptures",
+  "Pelt|l2|t48": "ruptures",
+  "KernelCPD|linear|t1": "ruptures",
+  "Binseg|l2|t53": "ruptures",
+  "KernelCPD|linear|t37": "ruptures",
+  "LERM|t131": "LERM"
+ },
+ "features": [
+  "support_LERM",
+  "support_ruptures"
+ ],
+ "rule": {
+  "ruptures": "support",
+  "KS": "single",
+  "LERM": "single"
+ },
+ "tolerance": 0.5,
+ "candidate_window": 0.5,
+ "preprocessing": "each series standardized (zero mean, unit std); NGRIP: cut to the DO-catalog range (no padding), forward time, standardized",
+ "C": 0.01,
+ "class_weight": "balanced",
+ "intercept": -0.8829433806281171,
+ "coefficients": {
+  "support_LERM": 0.41789980732979165,
+  "support_ruptures": 1.9853269888052167
+ },
+ "threshold": 0.54,
+ "threshold_criterion": "max event-level F1 on validation",
+ "validation": {
+  "precision": 0.4989669421487603,
+  "recall": 0.6280884265279584,
+  "f1": 0.5561312607944733,
+  "candidate_recall": 0.9921976592977894
+ }
+}

@@ -1,0 +1,32 @@
+========================================
+Job ID: 13473255
+Node: a03-18
+Start time: Mon Oct 26 18:34:53 PDT 2026
+========================================
+ammonyte 0.0.8 loaded
+OpenCL platforms: [<pyopencl.Platform 'Portable Computing Language' at 0x7fc371bdc010>]
+train seeds: 60   validation seeds: 30
+inner grid: 5 cells (5 block sizes x 1 fixed bounds)
+max_call_seconds=7200s (safety net)   n_jobs=24
+study 'search_lerm_tau_warming' @ 'sqlite:///results_lerm_tau/study.db': 0 trial(s) already recorded
+--n-trials cap is 250 total -- running up to 250 more
+No improvement greater than 0.01 during the last 62 completed trials -- stopping study early.
+
+Saved 119 trials -> results_lerm_tau/optuna_trials.csv
+Study wall time: 40291s   trials this run: 119   trials total: 119   failed total: 19
+Stopped early by the patience callback at trial #118.
+Saved convergence data (100 completed trials) -> results_lerm_tau/optuna_convergence.csv
+Saved convergence plot -> results_lerm_tau/optuna_convergence.png
+
+Best trial #47 (optimized on f1_warming): train f1_all=0.349  f1_warming=0.312  f1_cooling=0.182
+  params: {'m': 9, 'tau': 5, 'target_density': 0.010109922243677471, 'w_size': 34, 'w_incre': 15, 'w_incre_frac': 0.44064383134658947, 'block_size': 1, 'upper': 95.0, 'lower': 5.0}
+Saved winning config -> results_lerm_tau/best_params.json
+
+VALIDATION (winning cell (1, 95.0, 5.0)):
+  val_f1_warming=0.268  precision_warming=0.330  recall_warming=0.249
+  val_f1_all=0.337  val_f1_cooling=0.172
+
+test.npz was never opened this run (evaluate_final_test() is ready for the one-time final check).
+========================================
+Job completed: Tue Oct 27 05:55:27 PDT 2026
+========================================

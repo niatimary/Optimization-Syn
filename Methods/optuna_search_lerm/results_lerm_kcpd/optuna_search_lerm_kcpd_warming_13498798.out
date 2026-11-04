@@ -1,0 +1,32 @@
+========================================
+Job ID: 13498798
+Node: b22-18
+Start time: Tue Oct 27 13:02:12 PDT 2026
+========================================
+ammonyte 0.0.8 loaded
+OpenCL platforms: [<pyopencl.Platform 'Portable Computing Language' at 0x7f483a89f010>]
+train seeds: 60   validation seeds: 30
+inner grid: 8 penalty multipliers k = (0.05, 0.1, 0.15, 0.25, 0.35, 0.5, 0.75, 1.0); block_size fixed at 2
+max_call_seconds=7200s (safety net)   n_jobs=24
+study 'search_lerm_kcpd_warming' @ 'sqlite:///results_lerm_kcpd/study.db': 0 trial(s) already recorded
+--n-trials cap is 250 total -- running up to 250 more
+No improvement greater than 0.01 during the last 50 completed trials -- stopping study early.
+
+Saved 135 trials -> results_lerm_kcpd/optuna_trials.csv
+Study wall time: 44998s   trials this run: 135   trials total: 135   failed total: 0
+Stopped early by the patience callback at trial #134.
+Saved convergence data (135 completed trials) -> results_lerm_kcpd/optuna_convergence.csv
+Saved convergence plot -> results_lerm_kcpd/optuna_convergence.png
+
+Best trial #131 (optimized on f1_warming): train f1_all=0.406  f1_warming=0.363  f1_cooling=0.355
+  params: {'m': 5, 'tau': 5, 'target_density': 0.0114327262364086, 'w_size': 16, 'w_incre': 2, 'w_incre_frac': 0.1290788363515874, 'block_size': 2, 'k': 0.35}
+Saved winning config -> results_lerm_kcpd/best_params.json
+
+VALIDATION (winning k=0.35, block_size=2):
+  val_f1_warming=0.349  precision_warming=0.296  recall_warming=0.506
+  val_f1_all=0.407  val_f1_cooling=0.366
+
+test.npz was never opened this run (evaluate_final_test() is ready for the one-time final check).
+========================================
+Job completed: Wed Oct 28 01:40:24 PDT 2026
+========================================

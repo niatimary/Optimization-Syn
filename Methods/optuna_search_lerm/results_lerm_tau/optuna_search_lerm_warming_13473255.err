@@ -1,0 +1,272 @@
+[I 2026-10-26 18:35:07,428] A new study created in RDB with name: search_lerm_tau_warming
+[I 2026-10-26 18:41:10,588] Trial 0 finished with value: 0.10518959848315872 and parameters: {'m': 9, 'tau': 41, 'target_density': 0.07259248719561363, 'w_size': 40, 'w_incre_frac': 0.1624074561769746}. Best is trial 0 with value: 0.10518959848315872.
+[I 2026-10-26 18:46:53,781] Trial 1 finished with value: 0.21007353019222288 and parameters: {'m': 4, 'tau': 2, 'target_density': 0.10440040750544663, 'w_size': 40, 'w_incre_frac': 0.3832290311184182}. Best is trial 1 with value: 0.21007353019222288.
+[I 2026-10-26 18:52:41,643] Trial 2 finished with value: 0.2328261753563163 and parameters: {'m': 2, 'tau': 44, 'target_density': 0.09528587217040241, 'w_size': 20, 'w_incre_frac': 0.17272998688284025}. Best is trial 2 with value: 0.2328261753563163.
+[I 2026-10-26 19:00:16,293] Trial 3 finished with value: 0.24455754609657376 and parameters: {'m': 5, 'tau': 4, 'target_density': 0.04141536110538596, 'w_size': 32, 'w_incre_frac': 0.21649165607921678}. Best is trial 3 with value: 0.24455754609657376.
+[I 2026-10-26 19:06:04,873] Trial 4 finished with value: 0.24973746278768066 and parameters: {'m': 13, 'tau': 2, 'target_density': 0.022059149678071027, 'w_size': 28, 'w_incre_frac': 0.28242799368681437}. Best is trial 4 with value: 0.24973746278768066.
+[W 2026-10-26 19:11:45,274] Trial 5 failed with parameters: {'m': 16, 'tau': 3, 'target_density': 0.04025192252635066, 'w_size': 40, 'w_incre_frac': 0.1185801650879991} because of the following error: SeriesEvaluationError('5/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 5/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 19:11:45,278] Trial 5 failed with value None.
+[W 2026-10-26 19:17:24,478] Trial 6 failed with parameters: {'m': 13, 'tau': 3, 'target_density': 0.011926324174062874, 'w_size': 58, 'w_incre_frac': 0.4862528132298237} because of the following error: SeriesEvaluationError('1/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 1/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 19:17:24,480] Trial 6 failed with value None.
+[W 2026-10-26 19:21:17,865] Trial 7 failed with parameters: {'m': 17, 'tau': 4, 'target_density': 0.01302780710309028, 'w_size': 44, 'w_incre_frac': 0.27606099749584057} because of the following error: SeriesEvaluationError('23/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 23/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 19:21:17,866] Trial 7 failed with value None.
+[I 2026-10-26 19:27:03,543] Trial 8 finished with value: 0.27055266446408704 and parameters: {'m': 4, 'tau': 8, 'target_density': 0.01097599850212944, 'w_size': 56, 'w_incre_frac': 0.20351199264000677}. Best is trial 8 with value: 0.27055266446408704.
+[I 2026-10-26 19:33:01,726] Trial 9 finished with value: 0.280336491915279 and parameters: {'m': 14, 'tau': 4, 'target_density': 0.04089285700048085, 'w_size': 37, 'w_incre_frac': 0.17394178221021084}. Best is trial 9 with value: 0.280336491915279.
+[I 2026-10-26 19:38:43,811] Trial 10 finished with value: 0.10345407672193246 and parameters: {'m': 20, 'tau': 22, 'target_density': 0.12733168701231962, 'w_size': 55, 'w_incre_frac': 0.3391599915244341}. Best is trial 9 with value: 0.280336491915279.
+[W 2026-10-26 19:42:37,545] Trial 11 failed with parameters: {'m': 19, 'tau': 2, 'target_density': 0.017001754132211097, 'w_size': 12, 'w_incre_frac': 0.23013213230530574} because of the following error: SeriesEvaluationError('24/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 24/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 19:42:37,546] Trial 11 failed with value None.
+[I 2026-10-26 19:49:27,892] Trial 12 finished with value: 0.24351152503570425 and parameters: {'m': 9, 'tau': 4, 'target_density': 0.09433458442225107, 'w_size': 28, 'w_incre_frac': 0.2123738038749523}. Best is trial 9 with value: 0.280336491915279.
+[I 2026-10-26 20:01:02,741] Trial 13 finished with value: 0.21728983490671389 and parameters: {'m': 12, 'tau': 2, 'target_density': 0.08779238696445962, 'w_size': 13, 'w_incre_frac': 0.4947547746402069}. Best is trial 9 with value: 0.280336491915279.
+[W 2026-10-26 20:05:21,525] Trial 14 failed with parameters: {'m': 16, 'tau': 3, 'target_density': 0.010150665434429315, 'w_size': 51, 'w_incre_frac': 0.38274293753904687} because of the following error: SeriesEvaluationError('19/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 19/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 20:05:21,527] Trial 14 failed with value None.
+[W 2026-10-26 20:09:33,086] Trial 15 failed with parameters: {'m': 15, 'tau': 22, 'target_density': 0.012220339394068061, 'w_size': 28, 'w_incre_frac': 0.1463476238100519} because of the following error: SeriesEvaluationError('17/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 17/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 20:09:33,088] Trial 15 failed with value None.
+[W 2026-10-26 20:13:23,561] Trial 16 failed with parameters: {'m': 18, 'tau': 13, 'target_density': 0.02450001073565503, 'w_size': 13, 'w_incre_frac': 0.2243929286862649} because of the following error: SeriesEvaluationError('23/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 23/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 20:13:23,561] Trial 16 failed with value None.
+[I 2026-10-26 20:18:58,305] Trial 17 finished with value: 0.09817044876832855 and parameters: {'m': 8, 'tau': 19, 'target_density': 0.05621157696543969, 'w_size': 55, 'w_incre_frac': 0.28888597006477973}. Best is trial 9 with value: 0.280336491915279.
+[I 2026-10-26 20:24:33,832] Trial 18 finished with value: 0.26142595415855346 and parameters: {'m': 4, 'tau': 18, 'target_density': 0.07847885275945195, 'w_size': 38, 'w_incre_frac': 0.40838687198182444}. Best is trial 9 with value: 0.280336491915279.
+[I 2026-10-26 20:30:25,039] Trial 19 finished with value: 0.16863453474103327 and parameters: {'m': 11, 'tau': 9, 'target_density': 0.0318293122389662, 'w_size': 11, 'w_incre_frac': 0.1431565707973218}. Best is trial 9 with value: 0.280336491915279.
+[I 2026-10-26 20:36:02,105] Trial 20 finished with value: 0.251038453436131 and parameters: {'m': 2, 'tau': 14, 'target_density': 0.02342671108635554, 'w_size': 35, 'w_incre_frac': 0.4630265895704372}. Best is trial 9 with value: 0.280336491915279.
+[I 2026-10-26 20:43:42,213] Trial 21 finished with value: 0.24880280944127445 and parameters: {'m': 6, 'tau': 6, 'target_density': 0.07737436356722838, 'w_size': 21, 'w_incre_frac': 0.1307919639315172}. Best is trial 9 with value: 0.280336491915279.
+[I 2026-10-26 20:49:32,592] Trial 22 finished with value: 0.2047245020786629 and parameters: {'m': 7, 'tau': 3, 'target_density': 0.12399645883123124, 'w_size': 51, 'w_incre_frac': 0.35336150260416943}. Best is trial 9 with value: 0.280336491915279.
+[W 2026-10-26 20:52:47,789] Trial 23 failed with parameters: {'m': 18, 'tau': 25, 'target_density': 0.016573850437780164, 'w_size': 55, 'w_incre_frac': 0.31573689676626027} because of the following error: SeriesEvaluationError('29/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 29/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 20:52:47,790] Trial 23 failed with value None.
+[W 2026-10-26 20:56:04,889] Trial 24 failed with parameters: {'m': 17, 'tau': 34, 'target_density': 0.023659257295689295, 'w_size': 15, 'w_incre_frac': 0.1911740650167767} because of the following error: SeriesEvaluationError('20/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 20/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 20:56:04,891] Trial 24 failed with value None.
+[I 2026-10-26 21:04:42,632] Trial 25 finished with value: 0.13237834339101767 and parameters: {'m': 10, 'tau': 26, 'target_density': 0.10287212602939473, 'w_size': 10, 'w_incre_frac': 0.3042989210310263}. Best is trial 9 with value: 0.280336491915279.
+[I 2026-10-26 21:10:25,003] Trial 26 finished with value: 0.2863756932910822 and parameters: {'m': 9, 'tau': 3, 'target_density': 0.01383479125727307, 'w_size': 27, 'w_incre_frac': 0.47716388156500766}. Best is trial 26 with value: 0.2863756932910822.
+[I 2026-10-26 21:16:51,388] Trial 27 finished with value: 0.24147357207027167 and parameters: {'m': 8, 'tau': 9, 'target_density': 0.06711420536774852, 'w_size': 28, 'w_incre_frac': 0.4887128330883843}. Best is trial 26 with value: 0.2863756932910822.
+[W 2026-10-26 21:20:57,332] Trial 28 failed with parameters: {'m': 20, 'tau': 4, 'target_density': 0.038442322817618134, 'w_size': 25, 'w_incre_frac': 0.21393619775098704} because of the following error: SeriesEvaluationError('23/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 23/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-26 21:20:57,333] Trial 28 failed with value None.
+[I 2026-10-26 21:26:37,042] Trial 29 finished with value: 0.251912491374216 and parameters: {'m': 2, 'tau': 12, 'target_density': 0.03901183739165411, 'w_size': 12, 'w_incre_frac': 0.2114585856946446}. Best is trial 26 with value: 0.2863756932910822.
+[I 2026-10-26 21:32:20,452] Trial 30 finished with value: 0.29766890554419484 and parameters: {'m': 9, 'tau': 4, 'target_density': 0.025198241511040383, 'w_size': 35, 'w_incre_frac': 0.4381452951250636}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 21:37:58,859] Trial 31 finished with value: 0.2822032774887077 and parameters: {'m': 7, 'tau': 4, 'target_density': 0.010062189466953786, 'w_size': 40, 'w_incre_frac': 0.49193731864196666}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 21:43:38,431] Trial 32 finished with value: 0.23285503009289446 and parameters: {'m': 7, 'tau': 2, 'target_density': 0.010558710189249074, 'w_size': 34, 'w_incre_frac': 0.49126365898833}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 21:49:21,461] Trial 33 finished with value: 0.27393040644169003 and parameters: {'m': 10, 'tau': 5, 'target_density': 0.010316299426094614, 'w_size': 47, 'w_incre_frac': 0.4748350773720669}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 21:55:01,543] Trial 34 finished with value: 0.2667302497039811 and parameters: {'m': 7, 'tau': 3, 'target_density': 0.014589024236823962, 'w_size': 24, 'w_incre_frac': 0.4801299723174486}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:00:43,276] Trial 35 finished with value: 0.2815558050477212 and parameters: {'m': 12, 'tau': 4, 'target_density': 0.015609148463665038, 'w_size': 38, 'w_incre_frac': 0.45926982226971647}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:06:23,805] Trial 36 finished with value: 0.27610712412771343 and parameters: {'m': 10, 'tau': 4, 'target_density': 0.018204054252495612, 'w_size': 26, 'w_incre_frac': 0.39780379793802617}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:11:57,917] Trial 37 finished with value: 0.21702569996913942 and parameters: {'m': 3, 'tau': 3, 'target_density': 0.010779451393125104, 'w_size': 47, 'w_incre_frac': 0.4910240589662561}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:17:36,947] Trial 38 finished with value: 0.2503541580328595 and parameters: {'m': 10, 'tau': 4, 'target_density': 0.018913187456400554, 'w_size': 47, 'w_incre_frac': 0.491413074684072}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:23:02,489] Trial 39 finished with value: 0.20395273911969253 and parameters: {'m': 10, 'tau': 9, 'target_density': 0.01549794456434998, 'w_size': 29, 'w_incre_frac': 0.46786796125050567}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:29:20,247] Trial 40 finished with value: 0.25042605623335834 and parameters: {'m': 6, 'tau': 3, 'target_density': 0.0190847113243494, 'w_size': 37, 'w_incre_frac': 0.43070425144206137}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:35:04,149] Trial 41 finished with value: 0.261052836742663 and parameters: {'m': 11, 'tau': 2, 'target_density': 0.010961056087867202, 'w_size': 27, 'w_incre_frac': 0.4205062663129478}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:40:37,848] Trial 42 finished with value: 0.2664819468210332 and parameters: {'m': 7, 'tau': 6, 'target_density': 0.014828077083155146, 'w_size': 45, 'w_incre_frac': 0.46801086586887797}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:46:21,658] Trial 43 finished with value: 0.29191153519965896 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.021865031663670827, 'w_size': 36, 'w_incre_frac': 0.3795559305381289}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:51:52,705] Trial 44 finished with value: 0.2742066915111918 and parameters: {'m': 7, 'tau': 7, 'target_density': 0.010156584893113038, 'w_size': 45, 'w_incre_frac': 0.4891644850716811}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 22:57:35,588] Trial 45 finished with value: 0.2574572131254648 and parameters: {'m': 10, 'tau': 2, 'target_density': 0.01791813361046827, 'w_size': 26, 'w_incre_frac': 0.4718465363463883}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 23:03:08,903] Trial 46 finished with value: 0.2542166762111911 and parameters: {'m': 11, 'tau': 6, 'target_density': 0.027786690259906665, 'w_size': 33, 'w_incre_frac': 0.421214358054652}. Best is trial 30 with value: 0.29766890554419484.
+[I 2026-10-26 23:08:48,002] Trial 47 finished with value: 0.31163834152458764 and parameters: {'m': 9, 'tau': 5, 'target_density': 0.010109922243677471, 'w_size': 34, 'w_incre_frac': 0.44064383134658947}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-26 23:14:30,201] Trial 48 finished with value: 0.27164306331031257 and parameters: {'m': 9, 'tau': 3, 'target_density': 0.013457134984084447, 'w_size': 33, 'w_incre_frac': 0.36093171048108835}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-26 23:20:15,863] Trial 49 finished with value: 0.26886695472478717 and parameters: {'m': 11, 'tau': 2, 'target_density': 0.011640593310319863, 'w_size': 36, 'w_incre_frac': 0.45987198421676195}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-26 23:25:48,505] Trial 50 finished with value: 0.29571515987362706 and parameters: {'m': 7, 'tau': 5, 'target_density': 0.010865397919344438, 'w_size': 29, 'w_incre_frac': 0.43780954252324733}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-26 23:31:54,844] Trial 51 finished with value: 0.2967631110502367 and parameters: {'m': 10, 'tau': 4, 'target_density': 0.010076633131804786, 'w_size': 30, 'w_incre_frac': 0.4441691494989898}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-26 23:37:47,649] Trial 52 finished with value: 0.25484929954918667 and parameters: {'m': 8, 'tau': 3, 'target_density': 0.011154832313852656, 'w_size': 28, 'w_incre_frac': 0.4281643986069174}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-26 23:43:25,159] Trial 53 finished with value: 0.3001922505879014 and parameters: {'m': 8, 'tau': 5, 'target_density': 0.012906944600842024, 'w_size': 27, 'w_incre_frac': 0.3668216930951802}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-26 23:48:59,269] Trial 54 finished with value: 0.26801540364485515 and parameters: {'m': 7, 'tau': 4, 'target_density': 0.016072207027865885, 'w_size': 22, 'w_incre_frac': 0.432991236250359}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-26 23:54:38,557] Trial 55 finished with value: 0.2886578713796275 and parameters: {'m': 9, 'tau': 5, 'target_density': 0.010833206156094791, 'w_size': 35, 'w_incre_frac': 0.40480391305917535}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:00:09,291] Trial 56 finished with value: 0.2604748111038146 and parameters: {'m': 5, 'tau': 4, 'target_density': 0.010626100024797198, 'w_size': 32, 'w_incre_frac': 0.3728797417420372}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:05:41,812] Trial 57 finished with value: 0.2907278652419778 and parameters: {'m': 7, 'tau': 8, 'target_density': 0.01242907575843628, 'w_size': 31, 'w_incre_frac': 0.39806407801258176}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:11:17,596] Trial 58 finished with value: 0.28822257494727777 and parameters: {'m': 8, 'tau': 5, 'target_density': 0.012463670615218102, 'w_size': 31, 'w_incre_frac': 0.4664524393126778}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:16:50,948] Trial 59 finished with value: 0.2779399128369789 and parameters: {'m': 6, 'tau': 4, 'target_density': 0.012053222994672524, 'w_size': 33, 'w_incre_frac': 0.4423425737595237}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:22:22,821] Trial 60 finished with value: 0.28745642668120563 and parameters: {'m': 5, 'tau': 6, 'target_density': 0.010578130947148063, 'w_size': 27, 'w_incre_frac': 0.39712397611051736}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:28:02,976] Trial 61 finished with value: 0.26339073583873907 and parameters: {'m': 10, 'tau': 6, 'target_density': 0.01568120606808496, 'w_size': 38, 'w_incre_frac': 0.4004881778913996}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:33:45,607] Trial 62 finished with value: 0.30309944990158294 and parameters: {'m': 12, 'tau': 4, 'target_density': 0.010470045432486448, 'w_size': 32, 'w_incre_frac': 0.43468479250828856}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:39:23,424] Trial 63 finished with value: 0.2838598042144946 and parameters: {'m': 10, 'tau': 4, 'target_density': 0.010057303604034066, 'w_size': 22, 'w_incre_frac': 0.4495470427909816}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:45:06,020] Trial 64 finished with value: 0.28264435260526294 and parameters: {'m': 9, 'tau': 3, 'target_density': 0.01093635678565986, 'w_size': 36, 'w_incre_frac': 0.42533594879598813}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:50:46,311] Trial 65 finished with value: 0.29410610176962576 and parameters: {'m': 10, 'tau': 4, 'target_density': 0.013110805543978863, 'w_size': 29, 'w_incre_frac': 0.41334500366390575}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 00:56:12,629] Trial 66 finished with value: 0.273003431988923 and parameters: {'m': 6, 'tau': 5, 'target_density': 0.010201075983143994, 'w_size': 26, 'w_incre_frac': 0.4962267551925128}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:01:52,788] Trial 67 finished with value: 0.28442062524450645 and parameters: {'m': 8, 'tau': 4, 'target_density': 0.012676668606544627, 'w_size': 28, 'w_incre_frac': 0.3645410049629826}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:07:26,240] Trial 68 finished with value: 0.29494118258359076 and parameters: {'m': 8, 'tau': 6, 'target_density': 0.016685328680441272, 'w_size': 35, 'w_incre_frac': 0.4339482832167369}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:13:05,235] Trial 69 finished with value: 0.2631245376023207 and parameters: {'m': 8, 'tau': 3, 'target_density': 0.01609047165185929, 'w_size': 33, 'w_incre_frac': 0.4094148392524294}. Best is trial 47 with value: 0.31163834152458764.
+[W 2026-10-27 01:18:34,309] Trial 70 failed with parameters: {'m': 13, 'tau': 5, 'target_density': 0.010538950265068913, 'w_size': 39, 'w_incre_frac': 0.4577181008859997} because of the following error: SeriesEvaluationError('2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 01:18:34,311] Trial 70 failed with value None.
+[I 2026-10-27 01:23:58,077] Trial 71 finished with value: 0.28056228593415283 and parameters: {'m': 6, 'tau': 11, 'target_density': 0.015724251065061718, 'w_size': 31, 'w_incre_frac': 0.43316710443675177}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:29:31,405] Trial 72 finished with value: 0.2856310617805369 and parameters: {'m': 8, 'tau': 6, 'target_density': 0.014905190610161581, 'w_size': 35, 'w_incre_frac': 0.4315119009573457}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:35:13,607] Trial 73 finished with value: 0.30308241521537105 and parameters: {'m': 11, 'tau': 4, 'target_density': 0.010337283884804718, 'w_size': 30, 'w_incre_frac': 0.3800500437366336}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:40:46,981] Trial 74 finished with value: 0.25585386170983304 and parameters: {'m': 9, 'tau': 8, 'target_density': 0.011166620555873504, 'w_size': 30, 'w_incre_frac': 0.44092106217009996}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:46:21,300] Trial 75 finished with value: 0.30590115552457803 and parameters: {'m': 7, 'tau': 5, 'target_density': 0.011115755579202816, 'w_size': 37, 'w_incre_frac': 0.41397741354218875}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:51:51,357] Trial 76 finished with value: 0.21336092063714565 and parameters: {'m': 12, 'tau': 7, 'target_density': 0.010069108839161985, 'w_size': 33, 'w_incre_frac': 0.41392138092643577}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 01:57:24,889] Trial 77 finished with value: 0.26460528855922555 and parameters: {'m': 10, 'tau': 7, 'target_density': 0.013504784578763576, 'w_size': 26, 'w_incre_frac': 0.40223075056189345}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 02:03:05,644] Trial 78 finished with value: 0.2943927496330429 and parameters: {'m': 11, 'tau': 4, 'target_density': 0.011748280433658397, 'w_size': 35, 'w_incre_frac': 0.40151359028312983}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 02:08:45,320] Trial 79 finished with value: 0.2739049078134624 and parameters: {'m': 9, 'tau': 5, 'target_density': 0.010845266077042831, 'w_size': 40, 'w_incre_frac': 0.4213206251769352}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 02:14:18,492] Trial 80 finished with value: 0.2800908349502019 and parameters: {'m': 10, 'tau': 5, 'target_density': 0.013475201185278198, 'w_size': 32, 'w_incre_frac': 0.49264876049748424}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 02:20:02,504] Trial 81 finished with value: 0.29258456423928825 and parameters: {'m': 12, 'tau': 3, 'target_density': 0.010749333708708243, 'w_size': 28, 'w_incre_frac': 0.39196094563994954}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 02:25:40,245] Trial 82 finished with value: 0.30296407074254783 and parameters: {'m': 12, 'tau': 4, 'target_density': 0.01099322904621452, 'w_size': 29, 'w_incre_frac': 0.471500253064264}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 02:31:19,560] Trial 83 finished with value: 0.28185413926279884 and parameters: {'m': 12, 'tau': 4, 'target_density': 0.011619916923595692, 'w_size': 24, 'w_incre_frac': 0.43667328404915634}. Best is trial 47 with value: 0.31163834152458764.
+[W 2026-10-27 02:36:56,667] Trial 84 failed with parameters: {'m': 13, 'tau': 4, 'target_density': 0.010925755021403676, 'w_size': 26, 'w_incre_frac': 0.4708115865376417} because of the following error: SeriesEvaluationError('2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 02:36:56,669] Trial 84 failed with value None.
+[W 2026-10-27 02:42:10,197] Trial 85 failed with parameters: {'m': 14, 'tau': 5, 'target_density': 0.01189759107036138, 'w_size': 30, 'w_incre_frac': 0.40553039459840035} because of the following error: SeriesEvaluationError('4/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 4/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 02:42:10,198] Trial 85 failed with value None.
+[I 2026-10-27 02:47:52,208] Trial 86 finished with value: 0.2823152846532024 and parameters: {'m': 12, 'tau': 3, 'target_density': 0.01054114089237413, 'w_size': 27, 'w_incre_frac': 0.4839037331589244}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 02:53:36,206] Trial 87 finished with value: 0.2962168396227884 and parameters: {'m': 11, 'tau': 4, 'target_density': 0.010048535253997173, 'w_size': 30, 'w_incre_frac': 0.44978751444003656}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 02:59:13,750] Trial 88 finished with value: 0.2877689554345144 and parameters: {'m': 12, 'tau': 4, 'target_density': 0.011465892099741344, 'w_size': 35, 'w_incre_frac': 0.48903216390230875}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 03:04:47,687] Trial 89 finished with value: 0.2755702965632424 and parameters: {'m': 10, 'tau': 6, 'target_density': 0.016009660620181176, 'w_size': 30, 'w_incre_frac': 0.4419777103965141}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 03:10:21,108] Trial 90 finished with value: 0.2649504675226914 and parameters: {'m': 11, 'tau': 6, 'target_density': 0.011683365162847587, 'w_size': 30, 'w_incre_frac': 0.3886350011391849}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 03:16:00,203] Trial 91 finished with value: 0.2770030439441803 and parameters: {'m': 10, 'tau': 4, 'target_density': 0.01180164372769591, 'w_size': 39, 'w_incre_frac': 0.45415664958672364}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 03:21:41,188] Trial 92 finished with value: 0.28595591992381875 and parameters: {'m': 9, 'tau': 4, 'target_density': 0.013589646040881975, 'w_size': 35, 'w_incre_frac': 0.4057840751501149}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 03:27:17,206] Trial 93 finished with value: 0.2834026531148902 and parameters: {'m': 10, 'tau': 5, 'target_density': 0.011001418818014485, 'w_size': 27, 'w_incre_frac': 0.4284009240544826}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 03:32:52,390] Trial 94 finished with value: 0.28560937616297644 and parameters: {'m': 10, 'tau': 6, 'target_density': 0.01194348671030269, 'w_size': 33, 'w_incre_frac': 0.4611928721756528}. Best is trial 47 with value: 0.31163834152458764.
+[W 2026-10-27 03:37:37,998] Trial 95 failed with parameters: {'m': 14, 'tau': 3, 'target_density': 0.010576125785857031, 'w_size': 33, 'w_incre_frac': 0.44763410153786853} because of the following error: SeriesEvaluationError('10/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 10/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 03:37:37,999] Trial 95 failed with value None.
+[I 2026-10-27 03:43:20,324] Trial 96 finished with value: 0.2928977379531657 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.012412199871582314, 'w_size': 32, 'w_incre_frac': 0.37943652290520247}. Best is trial 47 with value: 0.31163834152458764.
+[W 2026-10-27 03:48:39,134] Trial 97 failed with parameters: {'m': 13, 'tau': 5, 'target_density': 0.01160866618525673, 'w_size': 31, 'w_incre_frac': 0.4249097157234839} because of the following error: SeriesEvaluationError('2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 03:48:39,136] Trial 97 failed with value None.
+[I 2026-10-27 03:54:24,593] Trial 98 finished with value: 0.29704252635941625 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.011857856744058972, 'w_size': 35, 'w_incre_frac': 0.4569547188848448}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 04:00:02,530] Trial 99 finished with value: 0.2900484435293631 and parameters: {'m': 12, 'tau': 5, 'target_density': 0.014938985772081442, 'w_size': 31, 'w_incre_frac': 0.4717587681426512}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 04:05:39,084] Trial 100 finished with value: 0.2841461410417819 and parameters: {'m': 10, 'tau': 4, 'target_density': 0.011946536184702377, 'w_size': 28, 'w_incre_frac': 0.48366293589247167}. Best is trial 47 with value: 0.31163834152458764.
+[W 2026-10-27 04:11:00,661] Trial 101 failed with parameters: {'m': 13, 'tau': 3, 'target_density': 0.010317237702803645, 'w_size': 32, 'w_incre_frac': 0.4672658870550777} because of the following error: SeriesEvaluationError('3/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 3/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 04:11:00,662] Trial 101 failed with value None.
+[I 2026-10-27 04:16:34,391] Trial 102 finished with value: 0.28720569648784394 and parameters: {'m': 7, 'tau': 6, 'target_density': 0.010367146118701381, 'w_size': 35, 'w_incre_frac': 0.40148180865986627}. Best is trial 47 with value: 0.31163834152458764.
+[W 2026-10-27 04:22:01,959] Trial 103 failed with parameters: {'m': 13, 'tau': 4, 'target_density': 0.011946884120063686, 'w_size': 26, 'w_incre_frac': 0.46233952234533154} because of the following error: SeriesEvaluationError('2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 04:22:01,961] Trial 103 failed with value None.
+[W 2026-10-27 04:27:32,690] Trial 104 failed with parameters: {'m': 13, 'tau': 4, 'target_density': 0.012812797214197702, 'w_size': 34, 'w_incre_frac': 0.4398173987933995} because of the following error: SeriesEvaluationError('2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 2/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 04:27:32,691] Trial 104 failed with value None.
+[I 2026-10-27 04:33:13,537] Trial 105 finished with value: 0.2858143432300432 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.010309804816555825, 'w_size': 36, 'w_incre_frac': 0.425085052298877}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 04:38:52,372] Trial 106 finished with value: 0.28823411261932314 and parameters: {'m': 12, 'tau': 4, 'target_density': 0.012659492042620384, 'w_size': 35, 'w_incre_frac': 0.4527150069570894}. Best is trial 47 with value: 0.31163834152458764.
+[W 2026-10-27 04:44:02,984] Trial 107 failed with parameters: {'m': 13, 'tau': 4, 'target_density': 0.010087093261563478, 'w_size': 28, 'w_incre_frac': 0.43563084045225214} because of the following error: SeriesEvaluationError('4/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.').
+Traceback (most recent call last):
+  File "/home1/niati/.conda/envs/ammonyte_env/lib/python3.12/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home1/niati/Syntheticdata/optimization_warming/optuna_search_lerm.py", line 382, in objective
+    raise SeriesEvaluationError(
+SeriesEvaluationError: 4/60 train series failed to score; first error: RuntimeError: Runaway operation, exiting.
+[W 2026-10-27 04:44:02,986] Trial 107 failed with value None.
+[I 2026-10-27 04:49:43,581] Trial 108 finished with value: 0.29520062931043645 and parameters: {'m': 10, 'tau': 4, 'target_density': 0.010152969071881651, 'w_size': 31, 'w_incre_frac': 0.4225389465850867}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 04:55:24,242] Trial 109 finished with value: 0.2975349657347925 and parameters: {'m': 11, 'tau': 4, 'target_density': 0.012851268153995118, 'w_size': 30, 'w_incre_frac': 0.4577345552107493}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:01:08,945] Trial 110 finished with value: 0.28101482425394436 and parameters: {'m': 12, 'tau': 3, 'target_density': 0.010181163527382521, 'w_size': 27, 'w_incre_frac': 0.45462197570135404}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:06:51,613] Trial 111 finished with value: 0.3007227111964841 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.012723045260002699, 'w_size': 31, 'w_incre_frac': 0.4323562635782891}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:12:34,066] Trial 112 finished with value: 0.294901550559091 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.013461952982627598, 'w_size': 35, 'w_incre_frac': 0.4217018071963936}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:18:17,000] Trial 113 finished with value: 0.2907243996650006 and parameters: {'m': 12, 'tau': 5, 'target_density': 0.013982823440382834, 'w_size': 35, 'w_incre_frac': 0.43615152581265554}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:23:58,738] Trial 114 finished with value: 0.2893180932183435 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.014512326493520314, 'w_size': 31, 'w_incre_frac': 0.45761353593318543}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:29:36,171] Trial 115 finished with value: 0.29161410829991924 and parameters: {'m': 12, 'tau': 4, 'target_density': 0.014155684435467688, 'w_size': 30, 'w_incre_frac': 0.42025319563961844}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:35:16,890] Trial 116 finished with value: 0.2953140314906826 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.010796105972677982, 'w_size': 31, 'w_incre_frac': 0.4068565149221878}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:40:57,989] Trial 117 finished with value: 0.2796507657985092 and parameters: {'m': 11, 'tau': 3, 'target_density': 0.010557760439214641, 'w_size': 31, 'w_incre_frac': 0.4880770538866446}. Best is trial 47 with value: 0.31163834152458764.
+[I 2026-10-27 05:46:38,766] Trial 118 finished with value: 0.28357152190842216 and parameters: {'m': 9, 'tau': 3, 'target_density': 0.013825891341385208, 'w_size': 31, 'w_incre_frac': 0.4245884912541671}. Best is trial 47 with value: 0.31163834152458764.

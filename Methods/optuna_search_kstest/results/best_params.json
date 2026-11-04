@@ -1,0 +1,26 @@
+{
+  "w_min": 0.3878625511690615,
+  "w_max": 3.077234315757697,
+  "n_w": 20,
+  "d_c": 0.5424257567180603,
+  "n_c": 9,
+  "s_c": 2.6265984894790244,
+  "x_c": null,
+  "trial_number": 55,
+  "objective": "warming",
+  "train_f1_all": 0.709834552268139,
+  "train_f1_warming": 0.6932991985070486,
+  "train_f1_cooling": 0.7272059206482003,
+  "train_mean_elapsed_s": 49.77835924370641,
+  "run_metadata": {
+    "wall_time_s": 12806.975240065949,
+    "n_trials_this_run": 100,
+    "n_trials_total": 100,
+    "n_failed_total": 0,
+    "patience": 40,
+    "min_trials": 100,
+    "min_delta": 0.01,
+    "stopped_early": true,
+    "stopped_at_trial": 99
+  }
+}

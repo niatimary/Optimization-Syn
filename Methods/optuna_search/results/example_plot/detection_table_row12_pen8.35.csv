@@ -1,0 +1,50 @@
+# series: test row 12 (warming only)
+# method: KernelCPD/linear, pen=8.35, min_size=20
+# tolerance_kyr: 0.5
+# n_ground_truth: 22, n_detected: 39
+# TP: 18, FP: 21, FN: 4
+# precision: 0.462, recall: 0.818, F1: 0.590
+gt_time_kyr,detected_time_kyr,outcome
+,2.42,FP
+5.64,5.34,TP
+9.56,9.32,TP
+,13.78,FP
+,16.38,FP
+20.34,20.28,TP
+,26.84,FP
+,27.94,FP
+28.78,,FN
+,30.26,FP
+30.98,,FN
+35.78,35.76,TP
+,37.9,FP
+41.2,40.9,TP
+,42.62,FP
+44.3,43.98,TP
+,48.46,FP
+,51.08,FP
+51.7,,FN
+56.14,55.86,TP
+,59.5,FP
+61.6,61.58,TP
+64.18,63.88,TP
+66.2,66.14,TP
+68.54,68.26,TP
+71.7,71.86,TP
+,73.34,FP
+,78.44,FP
+80.1,80.08,TP
+83.08,83.02,TP
+,84.16,FP
+,85.36,FP
+86.12,,FN
+,87.54,FP
+92.68,92.78,TP
+,98.06,FP
+99.1,98.84,TP
+101.62,101.62,TP
+,109.64,FP
+110.14,110.14,TP
+,113.2,FP
+,116.18,FP
+,117.64,FP

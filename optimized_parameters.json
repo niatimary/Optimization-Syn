@@ -1,0 +1,58 @@
+{
+  "generated": "2026-07-28",
+  "synthetic_source": "best_config.json (Melcher25, sigma=0.371, gamma=1.458, alpha=-0.450, sigma_noise=0.046)",
+  "tolerance_kyr": 0.5,
+  "cv_note": "f1_score/f1_std are K-fold CV test-set estimates (parameters selected on train seeds only, scored on held-out seeds never used for selection); realizations vary only observation noise on one fixed dynamics trajectory, not full Melcher25 reruns.",
+  "methods": {
+    "KS_test": {
+      "params": {
+        "w_min": 0.5830769094342655,
+        "w_max": 3.342448366860718,
+        "n_w": 12,
+        "d_c": 0.8955270281836536,
+        "n_c": 6,
+        "s_c": 1.7349540723732184
+      },
+      "score": {
+        "f1_score": 0.6778553159476731,
+        "f1_std": 0.00235116764282207
+      },
+      "n_folds": 3,
+      "n_seeds": 8,
+      "n_candidates": 20
+    },
+    "ruptures_Binseg_l2": {
+      "params": {
+        "algo": "Binseg",
+        "cost": "l2",
+        "pen": 4.996078250812123,
+        "min_size": 7,
+        "jump": 1
+      },
+      "score": {
+        "f1_score": 0.9291562238930661,
+        "f1_std": 0.01580405368400342
+      },
+      "n_folds": 3,
+      "n_seeds": 8,
+      "n_candidates": 100
+    },
+    "ruptures_Window_l2": {
+      "params": {
+        "algo": "Window",
+        "cost": "l2",
+        "pen": 2.2977428962946447,
+        "min_size": 14,
+        "jump": 1,
+        "width": 207
+      },
+      "score": {
+        "f1_score": 0.2833532007445051,
+        "f1_std": 0.024956853254701872
+      },
+      "n_folds": 3,
+      "n_seeds": 8,
+      "n_candidates": 100
+    }
+  }
+}

@@ -1,0 +1,4 @@
+method,fold,train_f1,test_precision,test_recall,test_f1,best_params
+ruptures_Window_l2,0,0.29939393939393943,1.0,0.18333333333333335,0.2984126984126984,"{'algo': 'Window', 'cost': 'l2', 'pen': 2.2977428962946447, 'min_size': 14, 'jump': 1, 'width': 207}"
+ruptures_Window_l2,1,0.32571428571428573,1.0,0.15,0.2545454545454546,"{'algo': 'Window', 'cost': 'l2', 'pen': 2.2977428962946447, 'min_size': 14, 'jump': 1, 'width': 207}"
+ruptures_Window_l2,2,0.294314381270903,1.0,0.175,0.2971014492753623,"{'algo': 'Window', 'cost': 'l2', 'pen': 2.1082687154631348, 'min_size': 20, 'jump': 1, 'width': 158}"

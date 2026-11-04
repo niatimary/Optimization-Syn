@@ -1,0 +1,36 @@
+{
+  "m": 9,
+  "tau": 5,
+  "target_density": 0.010109922243677471,
+  "w_size": 34,
+  "w_incre": 15,
+  "w_incre_frac": 0.44064383134658947,
+  "block_size": 1,
+  "upper": 95.0,
+  "lower": 5.0,
+  "trial_number": 47,
+  "objective": "warming",
+  "fixed": {
+    "tau": "shared across series (tuned)",
+    "eps": 1,
+    "density_tolerance": 0.002,
+    "amp": 10,
+    "w": 50,
+    "n_samples": 10000
+  },
+  "train_f1_all": 0.34854713695478445,
+  "train_f1_warming": 0.31163834152458764,
+  "train_f1_cooling": 0.18173652152119682,
+  "train_mean_elapsed_s": 120.6297767368999,
+  "run_metadata": {
+    "wall_time_s": 40291.302496223245,
+    "n_trials_this_run": 119,
+    "n_trials_total": 119,
+    "n_failed_total": 19,
+    "patience": 50,
+    "min_trials": 100,
+    "min_delta": 0.01,
+    "stopped_early": true,
+    "stopped_at_trial": 118
+  }
+}

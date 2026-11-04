@@ -1,0 +1,4 @@
+method,fold,train_f1,test_precision,test_recall,test_f1,best_params
+ruptures_Binseg_l2,0,0.9263157894736842,1.0,0.9,0.9473684210526315,"{'algo': 'Binseg', 'cost': 'l2', 'pen': 4.996078250812123, 'min_size': 7, 'jump': 1}"
+ruptures_Binseg_l2,1,0.9369801308542092,0.890909090909091,0.9499999999999998,0.919047619047619,"{'algo': 'Binseg', 'cost': 'l2', 'pen': 2.94005095654594, 'min_size': 15, 'jump': 1}"
+ruptures_Binseg_l2,2,0.9385964912280702,0.9722222222222222,0.875,0.9210526315789473,"{'algo': 'Binseg', 'cost': 'l2', 'pen': 4.996078250812123, 'min_size': 7, 'jump': 1}"
